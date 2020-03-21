@@ -4,9 +4,7 @@ import React from 'react'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span style="padding-right:3px; padding-top: 3px; display:inline-block;">
-        <img class="manImg" src="images/ashwini-logo.png"></img>
-      </span>
+      <span className="icon fa-diamond"></span>
     </div>
     <div className="content">
       <div className="inner">
@@ -25,7 +23,7 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('Portfolio')
+              props.onOpenArticle('intro')
             }}
           >
             Intro
@@ -34,10 +32,19 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('Blog')
+              props.onOpenArticle('work')
             }}
           >
             Work
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('about')
+            }}
+          >
+            About
           </button>
         </li>
         <li>
