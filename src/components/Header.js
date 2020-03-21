@@ -9,8 +9,11 @@ const Header = props => (
       <div className="inner">
         <h1>Ashwini Munji</h1>
         <p>
-          Hi, I'm an Interior designer based out of San Fransisco Bay Area. I've a Bachelors in Interior Design from <a href="https://www.jnafau.ac.in/">JNAFAU, Hyderabad</a>. Currently open to opportunities including freelance projects. I think of myself as a versatile designer with various interests including but not
-          limited to Architecture and Landscape Architecture. 
+          Hi, I'm an Interior designer based out of San Fransisco Bay Area. After earning my Bacherlors of Interior Design from JNAFAU Hyderabad, I worked on 
+          several projects of varying scales. I'm currently open to oppurtunities, including freelance work. 
+        </p>
+        <p>
+        I'm a versatile designer with interests including but not limited to Art, Architecture and Cooking.
         </p>
       </div>
     </div>
