@@ -9,7 +9,7 @@ const Header = props => (
       <div className="inner">
         <h1>Ashwini Munji</h1>
         <p>
-          Ashwini Munji is an Interior Designer currently working in the San Fransisco Bay Area. She has Bachelors in Interior Design from JNTU University, Hyderabad, India. Her research
+          An Interior Designer currently working in the San Fransisco Bay Area. She has Bachelors in Interior Design from JNTU University, Hyderabad, India. Her research
           interests include Landcape Architecture and Architecture. 
         </p>
       </div>
