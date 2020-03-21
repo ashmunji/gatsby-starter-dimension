@@ -27,7 +27,7 @@
     height: 100%;
   }
 
-  /* &:before {
+  &:before {
     @include vendor(
       'transition',
       'background-color #{_duration(bg)} ease-in-out'
@@ -43,7 +43,7 @@
     background-position: center, center;
     background-repeat: no-repeat, repeat;
     z-index: 2;
-  }*/
+  }
 
   &:after {
     @include vendor('transform', 'scale(1.125)');
@@ -54,8 +54,7 @@
         'filter #{_duration(article)} ease-in-out'
       )
     );
-    //background-image: url('../../images/bg.jpg');
-    background-color: #000000;   
+    background-image: url('../../images/bg.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
