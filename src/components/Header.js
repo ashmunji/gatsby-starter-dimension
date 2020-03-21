@@ -17,7 +17,7 @@ const Header = props => (
     <nav>
       <ul>
         <li>
-          <a href="http://portfolio.nimu.work">Portfolio</a>
+          <a href="http://portfolio.nimu.work">Folio</a>
         </li> 
         <li>
           <a href="http://blog.nimu.work">Blog</a>
