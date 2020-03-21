@@ -27,7 +27,7 @@
     height: 100%;
   }
 
-  &:before {
+  /* &:before {
     @include vendor(
       'transition',
       'background-color #{_duration(bg)} ease-in-out'
@@ -53,7 +53,7 @@
         'transform #{_duration(article)} ease-in-out',
         'filter #{_duration(article)} ease-in-out'
       )
-    );
+    ); */
     //background-image: url('../../images/bg.jpg');
     background-color: #ffffff;   
     background-position: center;
