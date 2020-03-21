@@ -7,13 +7,10 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>Ashwini Munji</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          Ashwini Munji is an Interior Designer currently working in the San Fransisco Bay Area. She has Bachelors in Interior Design from JNTU University, Hyderabad, India. Her interests include
+          Architecture and Landscape Architecture. 
         </p>
       </div>
     </div>
@@ -21,20 +18,15 @@ const Header = props => (
       <ul>
         <li>
           <a href="http://portfolio.nimu.work">Portfolio</a>
-        </li>
-        <li>
+        </li> 
         <li>
           <a href="http://blog.nimu.work">Blog</a>
         </li>
+        <li>
+          <a href="http://resume.nimu.work">Resumé</a>
         </li>
         <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('contact')
-            }}
-          >
-            Contact
-          </button>
+          <a href="mailto:ashwinimunji16@gmail.com">Contact</a>
         </li>
       </ul>
     </nav>
