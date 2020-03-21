@@ -6,7 +6,7 @@ const Header = props => (
     <div className="logo">
       <span style={{display:'inline-block'}}>
 
-          <img class="manImg" src="images/ashwini-logo.png"/>
+          <img class="manImg" src="../../images/ashwini-logo.png"/>
 
       </span>
     </div>
