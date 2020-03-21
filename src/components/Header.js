@@ -20,22 +20,12 @@ const Header = props => (
     <nav>
       <ul>
         <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('portfolio')
-            }}
-          >
-            Intro
-          </button>
+          <a href="http://portfolio.nimu.work">Portfolio</a>
         </li>
         <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('blog')
-            }}
-          >
-            Work
-          </button>
+        <li>
+          <a href="http://blog.nimu.work">Blog</a>
+        </li>
         </li>
         <li>
           <button
