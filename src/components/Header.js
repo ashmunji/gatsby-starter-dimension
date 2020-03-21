@@ -4,7 +4,7 @@ import React from 'react'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span style={{display:'inline-block'}}>
+      <span style={{display:'inline-block', borderRadius:'100%'}}>
 
           <img class="manImg" src="https://raw.githubusercontent.com/ashmunji/gatsby-starter-dimension/master/src/images/ashwini-logo.png"/>
 
