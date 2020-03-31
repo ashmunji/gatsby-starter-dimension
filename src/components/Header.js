@@ -26,7 +26,7 @@ const Header = props => (
           <a href="http://blog.nimu.work">Blog</a>
         </li>
         <li>
-          <a href="http://resume.nimu.work">Resumé</a>
+          <a href="https://github.com/ashmunji/gatsby-starter-dimension/raw/master/src/custom-assets/ashwini-munji-03-2020.pdf">Resumé</a>
         </li>
         <li>
           <a href="mailto:ashwinimunji16@gmail.com">Contact</a>
