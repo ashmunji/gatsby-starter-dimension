@@ -67,9 +67,11 @@
     height: 4.5rem;
     line-height: 4.5rem;
     border: solid _size(border-width) _palette(border);
-    border-radius: 70%;
+    border-radius: 50%;
     background-image: url(../../images/ashwini-logo.png);
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     .icon {
       &:before {
         font-size: 2rem;
