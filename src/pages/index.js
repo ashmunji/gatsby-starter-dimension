@@ -14,7 +14,7 @@ class IndexPage extends React.Component {
       articleTimeout: false,
       article: '',
       loading: 'is-loading',
-      isBlackBackground: false
+      isBlackBackground: true
     }
     this.handleOpenArticle = this.handleOpenArticle.bind(this)
     this.handleCloseArticle = this.handleCloseArticle.bind(this)
@@ -42,14 +42,16 @@ class IndexPage extends React.Component {
   }
 
   handleBGChange(){
-    alert("inside handle BG change");
+   
     if(this.state.isBlackBackground){
+       alert("inside handle BG change1");
       this.state.isBlackBackground = false; 
       document.body.style = 'background: #FFFFF;';
       return; 
     }
 
     if(!this.state.isBlackBackground){
+       alert("inside handle BG change2");
       this.state.isBlackBackground = true; 
       document.body.style = 'background: #00000;';
       return; 
