@@ -47,7 +47,7 @@ class IndexPage extends React.Component {
        alert("inside handle BG change1");
       this.state.isBlackBackground = false; 
       document.body.style.backgroundColor = '#FFFFFF';
-      document.body.style.backgroundColor = '#000000';
+      document.body.style.color = '#000000';
       return; 
     }
 
@@ -55,7 +55,7 @@ class IndexPage extends React.Component {
        alert("inside handle BG change2");
       this.state.isBlackBackground = true; 
       document.body.style.backgroundColor = '#000000';
-      document.body.style.backgroundColor = '#FFFFFF';
+      document.body.style.color = '#FFFFFF';
       return; 
     }
 
