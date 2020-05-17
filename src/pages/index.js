@@ -64,6 +64,24 @@ class IndexPage extends React.Component {
 
   }
 
+
+  getDisplayProp(m){
+    if(m == 'moon'){
+      if(this.state.isBlackBackground)
+        return 'none';
+      else
+        return 'inline';
+    }
+    if(m == 'sun'){
+      if(this.state.isBlackBackground)
+        return 'inline';
+      else
+        return 'none';
+    }
+
+
+  }
+
   handleOpenArticle(article) {
 
     this.setState({
@@ -124,7 +142,8 @@ class IndexPage extends React.Component {
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
           <div id="wrapper">
             <PreHeader isBlackBackground={this.isBlackBackground} 
-                       handleBGChange={this.handleBGChange} />
+                       handleBGChange={this.handleBGChange}
+                       getDisplayProp= {this.getDisplayProp} />
             <Header onOpenArticle={this.handleOpenArticle} 
                     timeout={this.state.timeout} 
                     isBlackBackground={this.isBlackBackground} 
