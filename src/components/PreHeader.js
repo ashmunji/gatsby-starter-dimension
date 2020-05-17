@@ -3,7 +3,12 @@ import React from 'react'
 
 const PreHeader = props => (
   //<div class="fas fa-moon" style={{position: 'absolute;top: 10px;right: 10px'}} onClick={() => {props.handleBGChange()}}>Change Color </div>
-  <span className="icon fa-diamond" style={{position: 'absolute;top: 10px;right: 10px'}} onClick={() => {props.handleBGChange()}}></span>
+  if(props.isBlackBackground)
+    <span className="icon fa-sun" style={{position: 'absolute;top: 10px;right: 10px'}} onClick={() => {props.handleBGChange()}}></span>
+
+  if(!props.isBlackBackground)
+    <span className="icon fa-moon" style={{position: 'absolute;top: 10px;right: 10px'}} onClick={() => {props.handleBGChange()}}></span>
+
 )
 
 PreHeader.propTypes = {
