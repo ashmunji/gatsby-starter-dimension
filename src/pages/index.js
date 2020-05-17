@@ -123,7 +123,7 @@ class IndexPage extends React.Component {
     return (
       <Layout location={this.props.location}>
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
-        <div class="fas fa-moon" style={{position: 'absolute;top: 10px;right: 10px'}} onClick={() => {this.handleBGChange()}}>Change Color </div>
+        <div class="fas fa-moon" style={{position: 'absolute;top: 10px;right: 10px'}} onclick={() => {this.handleBGChange()}}>Change Color </div>
           <div id="wrapper">
             <Header onOpenArticle={this.handleOpenArticle} 
                     timeout={this.state.timeout} 
