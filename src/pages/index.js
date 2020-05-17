@@ -124,6 +124,8 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location}>
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
           <div id="wrapper">
+            <PreHeader isBlackBackground={this.isBlackBackground} 
+                       handleBGChange={this.handleBGChange} />
             <Header onOpenArticle={this.handleOpenArticle} 
                     timeout={this.state.timeout} 
                     isBlackBackground={this.isBlackBackground} 
