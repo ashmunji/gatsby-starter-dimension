@@ -42,6 +42,7 @@ class IndexPage extends React.Component {
   }
 
   handleBGChange(){
+    alert("inside handle BG change");
     if(this.state.isBlackBackground){
       this.state.isBlackBackground = false; 
       document.body.style = 'background: #FFFFF;';
@@ -55,8 +56,6 @@ class IndexPage extends React.Component {
     }
 
   }
-
-
 
   handleOpenArticle(article) {
 
