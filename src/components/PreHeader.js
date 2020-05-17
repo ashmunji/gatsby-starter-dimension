@@ -3,11 +3,11 @@ import React from 'react'
 
 var moonStyle = {
   position: 'absolute;top: 10px;right: 10px',
+  display:'none'
 };
 
 var sunStyle = {
   position: 'absolute;top: 10px;right: 10px',
-  display:'none'
 };
 
 
