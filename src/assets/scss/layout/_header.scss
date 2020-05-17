@@ -69,6 +69,7 @@
     border: solid _size(border-width) _palette(border);
     border-radius: 70%;
     background-image: url(../../images/ashwini-logo.png);
+    background-repeat: no-repeat;
     .icon {
       &:before {
         font-size: 2rem;
