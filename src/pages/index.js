@@ -50,6 +50,7 @@ class IndexPage extends React.Component {
       document.body.style.color = '#000000';
       document.body.style.borderColor = '#000000';
       document.getElementById('headerName').style.color = '#000000';
+      document.getElementById('sun').style.display = 'inline';
       return; 
     }
 
@@ -59,6 +60,7 @@ class IndexPage extends React.Component {
       document.body.style.color = '#cccccc';
       document.body.style.borderColor = '#cccccc';
       document.getElementById('headerName').style.color = '#cccccc';
+      document.getElementById('moon').style.display = 'none';
       return; 
     }
 
