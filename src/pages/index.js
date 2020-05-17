@@ -46,14 +46,14 @@ class IndexPage extends React.Component {
     if(this.state.isBlackBackground){
        alert("inside handle BG change1");
       this.state.isBlackBackground = false; 
-      document.body.style = 'background: #FFFFF;';
+      document.body.style = 'background: #FFFFF; color: #FFFFF;';
       return; 
     }
 
     if(!this.state.isBlackBackground){
        alert("inside handle BG change2");
       this.state.isBlackBackground = true; 
-      document.body.style = 'background: #00000;';
+      document.body.style = 'background: #00000; color: #FFFFF;';
       return; 
     }
 
