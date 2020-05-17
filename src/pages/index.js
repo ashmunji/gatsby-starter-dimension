@@ -14,7 +14,7 @@ class IndexPage extends React.Component {
       articleTimeout: false,
       article: '',
       loading: 'is-loading',
-      isBlackBackground: false; 
+      isBlackBackground: false
     }
     this.handleOpenArticle = this.handleOpenArticle.bind(this)
     this.handleCloseArticle = this.handleCloseArticle.bind(this)
