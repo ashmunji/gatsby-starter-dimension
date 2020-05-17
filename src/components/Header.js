@@ -7,7 +7,7 @@ const Header = props => (
     <div className="logo"></div>
     <div className="content">
       <div className="inner">
-        <h1>Ashwini Munji</h1>
+        <h1 id="headerName">Ashwini Munji</h1>
         <p>
           Hi, I'm an Interior designer based out of San Fransisco Bay Area. After earning my Bacherlors of Interior Design from JNAFAU Hyderabad, I worked on 
           several projects of varying scales. I'm currently open to oppurtunities, including freelance work. 
