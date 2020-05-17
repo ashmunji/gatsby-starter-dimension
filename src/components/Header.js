@@ -29,7 +29,7 @@ const Header = props => (
           <a href="https://drive.google.com/file/d/1vxm4d3gUnQ-JZeSRFq186bPbuygEAJjw/view">Resumé</a>
         </li>
         <li>
-          <a href="mailto:ashwinimunji16@gmail.com">Contact</a>
+          <a href="mailto:munjiashwini@gmail.com">Contact</a>
         </li>
       </ul>
     </nav>
