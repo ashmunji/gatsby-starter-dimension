@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 
 const Header = props => (
-  <div class="fas fa-moon" style={{position: 'absolute;top: 10px;right: 10px'}} onClick={() => {this.handleBGChange()}}>Change Color </div>
+  <div class="fas fa-moon" style={{position: 'absolute;top: 10px;right: 10px'}} onClick={() => {props.handleBGChange()}}>Change Color </div>
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo"></div>
     <div className="content">
