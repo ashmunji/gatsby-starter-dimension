@@ -3,7 +3,6 @@ import React from 'react'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-  <!--<div className="changeColor" onClick={() => {props.handleBGChange()}}>Change BG Color</div> -->
   <i class="fas fa-moon" style="position: absolute;top: 0px;right: 0px;" onClick={() => {props.handleBGChange()}}/>
     <div className="logo"></div>
     <div className="content">
