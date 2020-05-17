@@ -70,8 +70,7 @@
     border-radius: 50%;
     background-image: url(../../images/ashwini-logo.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    
     .icon {
       &:before {
         font-size: 2rem;
@@ -244,9 +243,9 @@
     }
 
     .logo {
-      width: 4.75rem;
-      height: 4.75rem;
-      line-height: 4.75rem;
+      width: 2.75rem;
+      height: 2.75rem;
+      line-height: 2.75rem;
       background-image: url(https://raw.githubusercontent.com/ashmunji/gatsby-starter-dimension/master/src/images/ashwini-logo.png);
       .icon {
         &:before {
