@@ -13,12 +13,14 @@ class IndexPage extends React.Component {
       timeout: false,
       articleTimeout: false,
       article: '',
-      loading: 'is-loading'
+      loading: 'is-loading',
+      isBlackBackground: false; 
     }
     this.handleOpenArticle = this.handleOpenArticle.bind(this)
     this.handleCloseArticle = this.handleCloseArticle.bind(this)
     this.setWrapperRef = this.setWrapperRef.bind(this);
     this.handleClickOutside = this.handleClickOutside.bind(this);
+    this.handleBGChange = this.handleBGChange.bind(this);
   }
 
   componentDidMount () {
@@ -38,6 +40,23 @@ class IndexPage extends React.Component {
   setWrapperRef(node) {
     this.wrapperRef = node;
   }
+
+  handleBGChange(){
+    if(this.state.isBlackBackground){
+      this.state.isBlackBackground = false; 
+      document.body.style = 'background: #FFFFF;';
+      return; 
+    }
+
+    if(!this.state.isBlackBackground){
+      this.state.isBlackBackground = true; 
+      document.body.style = 'background: #00000;';
+      return; 
+    }
+
+  }
+
+
 
   handleOpenArticle(article) {
 
@@ -89,12 +108,19 @@ class IndexPage extends React.Component {
     }
   }
 
+
+
+
+
   render() {
     return (
       <Layout location={this.props.location}>
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
           <div id="wrapper">
-            <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
+            <Header onOpenArticle={this.handleOpenArticle} 
+                    timeout={this.state.timeout} 
+                    isBlackBackground={this.isBlackBackground} 
+                    handleBGChange={this.handleBGChange} />
             <Main
               isArticleVisible={this.state.isArticleVisible}
               timeout={this.state.timeout}
@@ -102,6 +128,8 @@ class IndexPage extends React.Component {
               article={this.state.article}
               onCloseArticle={this.handleCloseArticle}
               setWrapperRef={this.setWrapperRef}
+              isBlackBackground={this.isBlackBackground}
+              handleBGChange={this.handleBGChange}
             />
             <Footer timeout={this.state.timeout} />
           </div>
