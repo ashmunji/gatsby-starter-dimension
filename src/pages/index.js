@@ -49,6 +49,7 @@ class IndexPage extends React.Component {
       document.body.style.backgroundColor = '#FFFFFF';
       document.body.style.color = '#000000';
       document.body.style.borderColor = '#000000';
+      document.getElementsByTagName('h1').color = '#000000';
       return; 
     }
 
@@ -58,6 +59,7 @@ class IndexPage extends React.Component {
       document.body.style.backgroundColor = '#000000';
       document.body.style.color = '#FFFFFF';
       document.body.style.borderColor = '#FFFFFF';
+      document.getElementsByTagName('h1').color = '#FFFFFF';
       return; 
     }
 
