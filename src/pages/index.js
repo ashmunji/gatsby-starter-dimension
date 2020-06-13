@@ -47,9 +47,9 @@ class IndexPage extends React.Component {
     if(this.state.isBlackBackground){
       this.state.isBlackBackground = false; 
       document.body.style.backgroundColor = '#cccccc';
-      //document.body.style.color = '#000000';
-      //document.body.style.borderColor = '#000000';
-      //document.getElementById('headerName').style.color = '#000000';
+      document.body.style.color = '#000000';
+      document.body.style.borderColor = '#000000';
+      document.getElementById('headerName').style.color = '#000000';
       document.getElementById('sun').style.display = 'none';
       document.getElementById('moon').style.display = 'inline';
       return; 
