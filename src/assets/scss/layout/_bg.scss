@@ -41,13 +41,13 @@
 
   &:after {
     @include vendor('transform', 'scale(1.125)');
-    @include vendor(
+    /*@include vendor(
       'transition',
       (
         'transform #{_duration(article)} ease-in-out',
         'filter #{_duration(article)} ease-in-out'
       )
-    );
+    );*/
     //background-image: url('../../images/bg.gif');
     background-position: center;
     background-size: cover;
