@@ -19,10 +19,10 @@ const Header = props => (
     <nav>
       <ul>
         <li>
-          <a href="http://folio.nimu.work">Folio</a>
+          <a href="http://spacenarrative.com">Studio</a>
         </li> 
         <li>
-          <a href="http://blog.nimu.work">Blog</a>
+          <a href="http://nimu.work">Blog</a>
         </li>
         <li>
           <a href="https://drive.google.com/file/d/1vxm4d3gUnQ-JZeSRFq186bPbuygEAJjw/view">Resumé</a>
