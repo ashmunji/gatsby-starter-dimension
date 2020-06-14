@@ -8,20 +8,19 @@ const Header = props => (
       <div className="inner">
         <h1 id="headerName">Ashwini Munji</h1>
         <p>
-          Hi, I'm the name you see above or simply Nimu. I'm currently in graduate school pursuing a Master's in Landscape Architecture. I was born in  Hyderabad, India, currently residing in the Bay Area.
+        Ashwini Munji or Nimu is currently in graduate school pursuing a Master's in Landscape Architecture. She was born in Hyderabad, India, and is currently a resident of the Bay Area.
         </p>
         <p>
-        I earned my Bachelor's Degree in Interior Design from JNAFAU. After working for a couple of small and large-scale firms, I quit my full-time job to pursue my other interests and to travel. 
-        During this time, I rekindled my love for the arts. I'm a self-taught illustrator and an amateur animator. You can find my works on Instagram, Dribbble, and Behance. To see the process behind some of my artwork, please visit my Youtube channel. Don't forget to check my Gumroad account for some free giveaways.
+        She earned her Bachelor's Degree in Interior Design from JNAFAU. After working for a couple of small and large-scale firms, she quit her full-time job to pursue her other interests including travel. 
         </p>
         <p>
-        During my spare time, I like to experiment with cooking, learn a new craft or blog.
+        During that phase, she rekindled with her love for the arts. She is a self-taught illustrator and an amateur animator. You can find her works on Instagram, Dribbble, and Behance. To see the process behind some of her artwork, please visit her Youtube channel. Don't forget to check her Gumroad account for free giveaways.
         </p>
         <p>
-        When the lockdown was declared, I wrote and sketched my first illustrated series - The adventures of Nimu, Roro & Munni.
+        When the lockdown was declared, she wrote and sketched her first illustrated series - The adventures of Nimu, Roro & Munni.
         </p>
         <p>
-        I also like to believe that I'm a problem solver and constantly think of innovative ways to do mundane tasks. (More on this soon) 
+        She is also a problem solver and constantly thinks of innovative ways to do mundane tasks.
         </p>
       </div>
     </div>
