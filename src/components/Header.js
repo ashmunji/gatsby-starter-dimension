@@ -27,13 +27,13 @@ const Header = props => (
     <nav>
       <ul>
         <li>
-          <a href="http://spacenarrative.com">Studio</a>
+          <a href="">Studio</a>
         </li> 
         <li>
-          <a href="http://nimu.work">Blog</a>
+          <a href="">Blog</a>
         </li>
         <li>
-          <a href="https://drive.google.com/file/d/1vxm4d3gUnQ-JZeSRFq186bPbuygEAJjw/view">Resumé</a>
+          <a href="">Resumé</a>
         </li>
         <li>
           <a href="mailto:munjiashwini@gmail.com">Contact</a>
